@@ -11,7 +11,7 @@ class bot extends Client {
         this.setMaxListeners(15)
         this.db = db
         this.color = "#1519f0"
-        this.footer = "© SupremeBots 2022"
+        this.footer = "© 'Ares Protect"
         this.link = "https://discord.gg/77Cu7HBeHx"
         this.prefix = db.get(`mainprefix`) || "&"
         this.dev = "Keraz & NEYFOX"
