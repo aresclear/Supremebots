@@ -13,7 +13,7 @@ class bot extends Client {
         this.color = "#1519f0"
         this.footer = "© 'Ares Protect"
         this.link = "https://discord.gg/77Cu7HBeHx"
-        this.prefix = db.get(`mainprefix`) || "&"
+        this.prefix = db.get(`mainprefix`) || "+"
         this.dev = "Keraz & NEYFOX"
         this.staff = ["983372987153670184", "933115742050725978", "696479076248059915", "984909402731589703", "983318654525513728", "922135633160441876"]
         this.version = require('../../version.json').version
